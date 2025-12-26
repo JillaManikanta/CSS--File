@@ -1,0 +1,49 @@
+.main-title{
+    color: aqua;
+}
+.parent>.main-title{                         
+    background-color: aquamarine;
+}
+.parent+.main-title{
+    color: bisque;
+}
+.main-title~h2{
+    color: brown;
+}
+.a{
+    color: aliceblue;
+}
+.parent>.a{
+    color: antiquewhite;
+}
+.parent>.main-title+.a{
+    color: antiquewhite;
+}
+.main-title~.a{
+    color: #000;
+}
+
+
+.special{
+    color: aliceblue;
+}
+.parent>.special{
+    color: antiquewhite;
+}
+.parent>.a+.special{
+    color: antiquewhite;
+}
+.special~h1{
+    color: #000;
+}
+
+
+h5+.child>*{
+    color: aquamarine;
+}
+
+
+
+.parent>*{
+    color: blue;
+}
